@@ -3,5 +3,22 @@ body {
   h1 {
     color: $primaryColor; 
   }
+
+  img:hover:nth-child(even) {
+    opacity: 1
+  }
+
+  img:hover:nth-child(odd) {
+    opacity: 0.1
+  }
+
+  img {
+    border-radius: 25px;
+    opacity: 0.5;
+    -moz-transition: 300ms linear all;
+    -webkit-transition: 300ms linear all;
+    -o-transition: 300ms linear all;
+    transition: 300ms linear all;
+  }
 }
 
