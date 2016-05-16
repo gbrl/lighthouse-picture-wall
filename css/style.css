@@ -1,9 +1,9 @@
 body h1 {
   color: #FFF000; }
-body img:hover:nth-child(even) {
+body div.member:nth-child(even) img:hover {
   opacity: 1; }
-body img:hover:nth-child(odd) {
-  opacity: 0.1; }
+body div.member:nth-child(odd) img:hover {
+  opacity: 0.2; }
 body img {
   border-radius: 25px;
   opacity: 0.5;
